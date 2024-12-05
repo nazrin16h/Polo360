@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(#d5d5d5, #fff, #fff, #fff, #fff);
+    text-align: center;
+    padding: 35px 0 25px 0;
+}
+
+#logo img {
+    width: 50%;
+}
+
+#menu li {
+    color: #b7b7b7;
+    font: .7em Tahoma, sans-serif;
+    padding: 0 10px 7px 10px;
+}
+
+#menu li a {
+    display: block;
+    font: bold .9rem Georgia, serif;
+    text-transform: uppercase;
+    color: #666;
+    text-decoration: none;
+}
+
+main {
+    background: #fff url('mainbg.jpg') repeat-x;
+    padding: 20px 0 0 0;
+}
+
+#slider {
+    height: 345px;
+    border: 1px solid #c6c6c6;
+    border-radius: 8px;
+    background: url('slider1.jpg') center/cover;
+    box-shadow: 0 5px 10px #AAA;
+}
+
+h1 {
+    font: bold 1.5em Georgia, serif;
+    color: #000;
+    text-align: center;
+    padding: 20px 0 14px 0;
+}
+
+h2 {
+    font: 1.3em Georgia;
+    color: #11719e;
+}
+
+h3 {
+    font: bold 18px Georgia, serif;
+    color: #444;
+    padding: 6px 0;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+h6 {
+    font: .75em Helvetica;
+    color: #8c8c8c;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+p {
+    margin-left: 0 !important;
+}
+
+.row {
+    padding: 24px 0;
+}
+
+.row article p {
+    font: .8em/1.5 Helvetica, sans-serif;
+    color: #3e3e3e;
+}
+
+.row article img {
+    width: 100%;
+    padding: 7px;
+    margin: 18px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background: #f3f3f3;
+}
+
+.btn {
+    display: inline-block;
+    width: 163px;
+    padding: 8px 13px;
+    margin: 20px 0;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.btn span {
+    float: right;
+}
+
+.btn1 {
+    border: 1px solid #d8d8d8;
+    font: .75em Helvetica, sans-serif;
+    color: #016999;
+    background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+}
+
+.btn2 {
+    border: 1px solid #004a80;
+    font: .75em Georgia, serif;
+    color: #fff;
+    background: linear-gradient(to right, #31669b, #4b83bd, #326598, #306193);
+}
+
+.col {
+    padding: 12px 10px;
+}
+
+footer {
+    height: 183px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+    padding: 10px;
+}
+
+.container p {
+    margin: 15px;
+    color: #fff;
+    font: 0.7em Helvetica, sans-serif;
+    color: #999999;
+}
+.icons2{
+    margin-bottom: 14px;
+}
+.icons2 a {
+    font-size: 3.1em;
+    color: #AAA;
+    color: black;
+}
+
+.fa-square-rss:hover {
+    color: orange !important
+}
+
+.fa-square-facebook:hover {
+    color: purple !important
+}
+
+.fa-linkedin:hover {
+    color: blue !important
+}
+
+.fa-square-youtube:hover {
+    color: red !important
+}
+
+.fa-square-x-twitter:hover {
+    color: rgb(80, 74, 74) !important
+}
+
+.col input,
+textarea {
+    margin: 10px;
+    border-radius: 6px;
+    margin-left: 0;
+    padding: 10px;
+    width: 295px;
+    border: 1px solid #cfcfcf;
+}
+
+.col textarea {
+    height: 133px;
+}
+::placeholder {
+    color: #cfcfcf;
+}
+
+.content img {
+    height: 47px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 3px solid #cfcfcf;
+    margin: 8px;
+}
+
+.content p {
+    margin: 10px;
+    width: 233px;
+    height: 57px;
+    font-size: .75em Helvetica ,sans-serif;
+    color: #444444;
+}
+.content hr{
+    border: 1px dashed #cfcfcf;
+}
+
+.container .cont {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+form{
+    display:inline-block;
+}
+@media only screen and (min-width:768px) {
+    .container {
+        width: 930px;
+        margin: auto;
+    }
+    
+    header {
+        text-align: initial;
+    }
+
+    #logo img {
+        width: 25%;
+    }
+
+    #menu li {
+        display: inline-block;
+        border-left: 1px dotted #d6d6d6;
+    }
+
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    #menu {
+        float: right;
+        padding: 20px 0 0 0;
+    }
+
+    .col {
+        width: 33.33%;
+        float: left;
+    }
+
+    .roww {
+        width: 900px;
+    }
+    .ft-right{
+        float: right;}
+}
